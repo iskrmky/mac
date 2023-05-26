@@ -1,0 +1,24 @@
+homebrew_taps:
+  - hashicorp/tap
+  - homebrew/cask
+  - homebrew/core
+homebrew_cask_packages:
+  - name: google-cloud-sdk
+  - name: google-chrome
+  - name: google-japanese-ime
+    become: yes
+  - name: pycharm
+  - name: clipy
+  - name: docker
+  - name: miniconda
+homebrew_packages:
+  - name: ansible
+  - name: speedtest
+  - name: n
+  - name: terraform
+  - name: gh
+  - name: git-flow
+  - name: pre-commit
+  - name: tox
+  - name: poetry
+  - name: docker-buildx
