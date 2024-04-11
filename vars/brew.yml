@@ -7,7 +7,6 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-japanese-ime
     become: yes
-  - name: pycharm
   - name: clipy
   - name: docker
   - name: miniconda
