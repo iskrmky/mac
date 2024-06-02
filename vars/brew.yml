@@ -19,5 +19,5 @@ homebrew_packages:
   - name: git-flow
   - name: pre-commit
   - name: tox
-  - name: poetry
+  - name: ruff
   - name: docker-buildx
