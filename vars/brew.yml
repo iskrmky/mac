@@ -10,6 +10,7 @@ homebrew_cask_packages:
   - name: clipy
   - name: docker
   - name: miniconda
+  - name: adguard
 homebrew_packages:
   - name: ansible
   - name: speedtest
