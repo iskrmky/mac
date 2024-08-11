@@ -5,12 +5,13 @@ homebrew_taps:
 homebrew_cask_packages:
   - name: google-cloud-sdk
   - name: google-chrome
-  - name: google-japanese-ime
-    become: yes
+#  - name: google-japanese-ime
+#    become: yes
   - name: clipy
   - name: docker
   - name: miniconda
   - name: adguard
+  - name: pycharm
 homebrew_packages:
   - name: ansible
   - name: speedtest
