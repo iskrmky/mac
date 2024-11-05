@@ -6,7 +6,7 @@ xcode-select --install
 
 brew install ansible
 
-git clone https://github.com/iskr-dev/mac.git
+git clone https://github.com/iskrmky/mac.git
 
 ansible-playbook -i inventory/localhost localhost.yml --ask-become-pass --ask-vault-pass
 ```
