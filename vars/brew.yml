@@ -1,15 +1,13 @@
 homebrew_taps:
   - hashicorp/tap
-  - homebrew/cask
-  - homebrew/core
 homebrew_cask_packages:
   - name: google-cloud-sdk
   - name: google-chrome
-#  - name: google-japanese-ime
-#    become: yes
   - name: clipy
+    become: yes
   - name: docker
   - name: miniconda
+    become: yes
   - name: adguard
   - name: pycharm
 homebrew_packages:
