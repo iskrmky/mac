@@ -17,6 +17,8 @@ cd Code
 git clone https://github.com/iskrmky/mac.git
 
 ansible-playbook -i inventory/localhost localhost.yml --ask-become-pass --ask-vault-pass
+
+conda init --all
 ```
 
 ## Note
