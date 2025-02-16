@@ -22,3 +22,4 @@ homebrew_packages:
   - name: tox
   - name: ruff
   - name: docker-buildx
+  - name: wget
